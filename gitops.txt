@@ -1,0 +1,18 @@
+https://codefresh.learnworlds.com/
+
+Install-Module -Name PSDesiredStateConfiguration -Repository PSGallery -MaximumVersion 2.99
+https://docs.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1
+
+https://docs.microsoft.com/en-us/powershell/dsc/overview?view=dsc-2.0
+
+https://www.powershellgallery.com/
+
+Device name	DESKTOP-QQ77D1G
+Processor	Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz   2.00 GHz
+Installed RAM	4.00 GB (3.88 GB usable)
+Device ID	35A4E6AB-B004-48B1-BA43-5CD6AA16D14E
+Product ID	00330-80000-00000-AA614
+System type	64-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display
+
+satrt-dscconfiguration -path e:\test\ -servername localhost -wait -verbose -force
